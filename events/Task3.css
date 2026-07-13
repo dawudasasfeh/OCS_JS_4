@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#form{
+    display: flex;
+
+}
+
+.pass,.repass{
+    display: flex;
+    flex-direction: column;
+}
+
+.error{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    label{
+        visibility: hidden;
+    }
+}
+

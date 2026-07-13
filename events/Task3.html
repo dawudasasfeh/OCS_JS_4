@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+    <link rel="stylesheet" href="Task3.css">
+    <script src="Task3.js" defer></script>
+</head>
+<body>
+    <form action="#" method="post" target="_blank" >
+        <div id="form">
+            <div class="pass">
+                <label for="pass">Password (min 6 characters):</label>
+                <label for="repass">Reapeat Password:</label>
+            </div>
+            <div class="repass">
+                <input type="password" name="pass" id="pass">
+                <input type="password" name="repass" id="repass">
+            </div>
+            <div class="error">
+                <label id="toPass" for="pass">Too short</label>
+                <label id="toRePass" for="repass">Passwords doesnt match</label>
+            </div>            
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

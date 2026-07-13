@@ -1,0 +1,24 @@
+.title{
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.card{
+    border: 1px solid black;
+    width :40%;
+}
+
+.content{
+    padding: 20px 10px;
+    display: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
