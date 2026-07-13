@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg</title>
+    <link rel="stylesheet" href="Task1.css">
+    <script src="Task1.js" defer></script>
+</head>
+<body>
+    <form id="reg">
+        <div class="formgroup">
+            <label for="fname">First Name : </label>
+            <input type="text" name="fname" id="first" class="name" required>
+            <span class="error" id="errFirstName">Name must contain only letters.</span>
+        </div>
+        <div class="formgroup">
+            <label for="lname">First Name : </label>
+            <input type="text" name="lname" id="last" class="name">
+            <span class="error" id="errLastName">Name must contain only letters.</span>
+        </div>
+        <div class="formgroup">
+            <label for="pnum">Phone : </label>
+            <input type="number" name="pnum" id="pnum">
+            <span class="error" id="errpnum">it must be 07XXXXXXX</span>
+        </div>
+        <div class="formgroup">
+            <label for="bd">Birth Date : </label>
+            <input type="date" name="bd" id="bd" required>
+            <span class="error" id="errBD">Enter a Date</span>
+        </div>
+        <div class="formgroup">
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email">
+            <span id="errEmail" class="error">Email should be valid</span>
+        </div>
+        <div class="formgroup">
+            <label for="remail">ReEnter Email : </label>
+            <input type="email" name="remail" id="remail">
+            <span id="errrEmail" class="error">Emails do not match.</span>
+        </div>
+        <div>
+            <label for="pass">Password : </label>
+            <input type="password" name="pass" id="pass">
+            <span id="errPassword" class="error">Password requires: 8-32 chars, starts with a capital letter, contains at least 2 numbers, and 1 special symbol.</span>
+        </div>
+        <div>
+            <label for="rpass">ReEnter Password : </label>
+            <input type="password" name="rpass" id="rpass">
+            <span id="errrPass" class="error">Passwords do not match.</span>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <a href="Login.html">Login</a>
+</body>
+</html>
